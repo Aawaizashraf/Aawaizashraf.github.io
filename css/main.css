@@ -21,8 +21,12 @@ body {
   background-color: rgba(255, 255, 255, 0.0);
 }
 
+.custCss-navbar {
+    background-color: rgba(0, 0, 0, 0.98);
+}
+
 .navbar-nav a {
-  color: white !important;
+  color: #ffffff;
   font-weight: 700;
   margin: 0 25px;
   margin-top: 10px;
@@ -33,6 +37,9 @@ body {
   color: #ffffff !important;
   border: none !important;
   outline: none !important;
+  margin-left: 25px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .navbar-toggler .fa {
@@ -44,11 +51,12 @@ body {
   font-weight: 800;
   border-bottom: 3px solid #ffffff;
   margin-bottom: -1px;
+  color: #ffffff;
 }
 
 .jumbotron {
   background-image: url(../resources/cup-2501196.jpg);
-  height: 100vh;
+  height: 110vh;
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -57,7 +65,7 @@ body {
 
 .jumbotron h1 {
   margin: 30px 0;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 500;
@@ -65,7 +73,7 @@ body {
 
 .jumbotron h3 {
   margin: 30px 0;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 300;
@@ -76,7 +84,7 @@ body {
 }
 
 .intro img {
-  width: 420px;
+  width: 400px;
 }
 
 #Header .btn {
@@ -96,6 +104,15 @@ body {
       
     .intro img {
         width: 360px;
+    }
+
+    .jumbotron {
+        background-image: url(../resources/cup-2501196.jpg);
+        height: 96vh;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        border-radius: 0px !important;
     }
     
     .jumbotron h1 {
@@ -123,7 +140,178 @@ body {
         font-weight: 600;
     }
 
+}
+
+@media only screen and (max-width: 992px) {
+
+    .nav-link:hover {
+        border-bottom: none;
+      }
+
+}
+
+@media only screen and (max-width: 963px) {
+    
+    .intro {
+        padding-top: 40px;
+    }
+      
+    .intro img {
+        width: 260px;
+    }
 
 
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .intro {
+        padding-top: 40px;
+    }
+      
+    .intro img {
+        width: 300px;
+    }
+
+    .jumbotron {
+        background-image: url(../resources/cup-2501196.jpg);
+        height: 96vh;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        border-radius: 0px !important;
+    }
+    
+    .jumbotron h1 {
+        margin: 25px 0;
+        font-size: 45px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .jumbotron h3 {
+        margin: 25px 0;
+        font-size: 30px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    #Header .btn {
+        border: 1.5px solid #ffffff;
+        color: #ffffff;
+        margin-top: 15px;
+        padding: 6px 3%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+    
+    .intro {
+        padding-top: 80px;
+    }
+      
+    .intro img {
+        width: 230px;
+    }
+
+    .jumbotron {
+        background-image: url(../resources/cup-2501196.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        border-radius: 0px !important;
+    }
+
+    .jumbotron h1 {
+        margin: 25px 0;
+        font-size: 35px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 376px) {
+    
+    .intro {
+        padding-top: 115px;
+    }
+      
+    .intro img {
+        width: 230px;
+    }
+
+    .jumbotron {
+        background-image: url(../resources/cup-2501196.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        border-radius: 0px !important;
+    }
+
+    .jumbotron h1 {
+        margin: 25px 0;
+        font-size: 30px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .jumbotron h3 {
+        margin: 25px 0;
+        font-size: 25px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+}
+
+@media only screen and (max-width: 326px) {
+    
+    .intro {
+        padding-top: 100px;
+    }
+      
+    .intro img {
+        width: 230px;
+    }
+
+    .jumbotron {
+        background-image: url(../resources/cup-2501196.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        border-radius: 0px !important;
+    }
+
+    .jumbotron h1 {
+        margin: 25px 0;
+        font-size: 27px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .jumbotron h3 {
+        margin: 25px 0;
+        font-size: 20px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+}
+
 /* Header Section End */
